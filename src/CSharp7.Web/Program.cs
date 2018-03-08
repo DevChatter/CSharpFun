@@ -12,9 +12,16 @@ namespace CSharp7.Web
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static int Main(string[] args)
         {
             BuildWebHost(args).Run();
+            return DoNothing().GetAwaiter().GetResult();
+        }
+
+        private static async Task<int> DoNothing()
+        {
+            await Task.Delay(1000);
+            return 0;
         }
 
         public static IWebHost BuildWebHost(string[] args) =>

@@ -1,0 +1,13 @@
+﻿@page
+@model CSharp7_2.Web.Pages.NonTrailingNamedArgumentsModel
+@{
+    ViewData["Title"] = "NonTrailingNamedArguments";
+}
+
+<h2>NonTrailingNamedArguments</h2>
+
+<p>FullNameString("Brendan", middleName: "Danger", "Enrick")</p>
+<p>@Model.GetString()</p>
+
+<p>Because "Danger" is my middle name...</p>
+

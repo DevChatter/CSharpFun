@@ -5,7 +5,7 @@ namespace CSharp7_2.Web.Pages
 {
     public class ReferenceSemanticsValueTypesModel : PageModel
     {
-        public string GetString()
+        public string GetInString()
         {
             int radius = 2;
             const int constRad = 3;

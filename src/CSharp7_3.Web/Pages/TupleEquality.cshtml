@@ -1,0 +1,11 @@
+﻿@page
+@model CSharp7_3.Web.Pages.TupleEqualityModel
+@{
+    ViewData["Title"] = "TupleEquality";
+    bool isTrue = ("Brendan", "Enrick") == ("Brendan", "Enrick");
+    bool isFalse = ("John", "Smith") == ("Brendan", "Enrick");
+}
+
+@nameof(isTrue):@isTrue
+@nameof(isFalse):@isFalse
+

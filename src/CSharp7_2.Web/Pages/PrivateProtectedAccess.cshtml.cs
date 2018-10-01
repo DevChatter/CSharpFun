@@ -9,31 +9,25 @@ namespace CSharp7_2.Web.Pages
 {
     public class PrivateProtectedAccessModel : PageModel
     {
-        public void OnGet()
+        public string GetString()
         {
-
+            var childClass = new ChildClass();
+            childClass.ChangeTheValue();
+            return childClass.GetText();
         }
     }
 
-    // Assembly1.cs  
-    // Compile with: /target:library  
-    public class BaseClass
+    public class ParentClass
     {
-        private protected int myValue = 0;
+        private protected string text = "parent";
+        public string GetText() => text;
     }
 
-    public class DerivedClass1 : BaseClass
+    public class ChildClass : ParentClass
     {
-        void Access()
+        public void ChangeTheValue()
         {
-            BaseClass baseObject = new BaseClass();
-
-            // Error CS1540, because myValue can only be accessed by
-            // classes derived from BaseClass.
-            // baseObject.myValue = 5;  
-
-            // OK, accessed through the current derived class instance
-            myValue = 5;
+            base.text = "from child";
         }
     }
 }

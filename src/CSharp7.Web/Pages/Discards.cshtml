@@ -1,0 +1,10 @@
+﻿@page
+@model CSharp7.Web.Pages.DiscardsModel
+@{
+    ViewData["Title"] = "Discards";
+}
+
+<h2>Discards</h2>
+
+<p>"Valid returns "@Model.IsValidEnum("Valid")</p>
+<p>"Invalid returns " @Model.IsValidEnum("Invalid")</p>

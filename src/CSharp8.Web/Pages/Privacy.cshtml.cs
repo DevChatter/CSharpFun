@@ -7,11 +7,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CSharp8.Web.Pages
 {
-    public class PatternMatchingModel : PageModel
+    public class PrivacyModel : PageModel
     {
         public void OnGet()
         {
-
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp6", "CSharp6", "{3A526D32-23E1-43C5-8D43-76CC1C92181D}"
 EndProject
@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp7_1.Web", "CSharp7_1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp7_2.Web", "CSharp7_2.Web\CSharp7_2.Web.csproj", "{52F43687-423F-4137-99A0-DBED4EBFF946}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp7_3.Web", "CSharp7_3.Web\CSharp7_3.Web.csproj", "{52468E5A-FDA2-4295-9439-5B710E793718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp7_3.Web", "CSharp7_3.Web\CSharp7_3.Web.csproj", "{52468E5A-FDA2-4295-9439-5B710E793718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp8", "CSharp8", "{64D9DEF8-289D-466D-8B57-779093134ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp8.Web", "CSharp8.Web\CSharp8.Web.csproj", "{6F40E536-312B-4C45-AF2B-783D42BD7CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{52468E5A-FDA2-4295-9439-5B710E793718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52468E5A-FDA2-4295-9439-5B710E793718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52468E5A-FDA2-4295-9439-5B710E793718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F40E536-312B-4C45-AF2B-783D42BD7CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F40E536-312B-4C45-AF2B-783D42BD7CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F40E536-312B-4C45-AF2B-783D42BD7CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F40E536-312B-4C45-AF2B-783D42BD7CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{6755943A-912A-4BA1-A621-7C298A362835} = {0559AF49-7FF5-40AB-8E23-6CFE22B8046E}
 		{52F43687-423F-4137-99A0-DBED4EBFF946} = {522EABD8-A343-4BB8-B4C5-79A50C18D607}
 		{52468E5A-FDA2-4295-9439-5B710E793718} = {66EE0035-8550-470D-AF47-3D73D33BC73E}
+		{6F40E536-312B-4C45-AF2B-783D42BD7CE1} = {64D9DEF8-289D-466D-8B57-779093134ECD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9532E111-1F60-42C3-9EF3-0FF3620A1EB6}

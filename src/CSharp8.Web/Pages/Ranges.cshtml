@@ -1,0 +1,17 @@
+﻿@page
+@model CSharp8.Web.Pages.RangesModel
+@{
+    ViewData["Title"] = "Ranges";
+}
+
+<h1>Ranges</h1>
+
+<p>Numbers @string.Join(", ", Model.Numbers)</p>
+
+<p>middle = Numbers[3..7];    : ( @string.Join(", ", Model.Numbers[3..7]) )</p>
+<p>firstFew = Numbers[..3];   : ( @string.Join(", ", Model.Numbers[..3]) )</p>
+<p>lastBunch = Numbers[4..];  : ( @string.Join(", ", Model.Numbers[4..]) )</p>
+<p>lastFew = Numbers[^3..];     : ( @string.Join(", ", Model.Numbers[^3..]) )</p>
+<p>thirdToLast = Numbers[^3];     : ( @string.Join(", ", Model.Numbers[^3]) )</p>
+<p>lastElement = Numbers[^1]; : ( @string.Join(", ", Model.Numbers[^1]) )</p>
+
